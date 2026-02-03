@@ -9,4 +9,4 @@
 - [x] Create Main Script to Run Analysis <!-- id: 6 -->
 - [x] Verify functionality with test cases <!-- id: 7 -->
 - [x] Create `README.md` with usage instructions <!-- id: 8 -->
-- [/] Provide Git commands for user to push <!-- id: 9 -->
+- [x] Provide Git commands for user to push <!-- id: 9 -->

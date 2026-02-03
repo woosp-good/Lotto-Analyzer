@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Lotto Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo">🎱 LOTTO <span class="highlight">ANALYZER</span></div>
+            <p>1210회차 대비 정밀 분석 시스템</p>
+        </header>
+
+        <main>
+            <!-- Generator Section -->
+            <section class="card glass-panel">
+                <h2>번호 생성</h2>
+                <p class="description">강력한 필터링 알고리즘으로 최적의 조합을 찾습니다.</p>
+                <button id="gen-btn" class="primary-btn">
+                    <span class="icon">🎲</span> 번호 추천받기
+                </button>
+                <div id="gen-result" class="result-area hidden">
+                    <div class="balls-container" id="generated-balls"></div>
+
+                </div>
+            </section>
+
+            <div id="gen-result" class="result-area hidden">
+                <div id="generated-balls" class="balls-container"></div>
+            </div>
+            </section>
+
+            <section class="container">
+                <section class="card glass-panel">
+                    <h2>최근 10회 당첨 결과</h2>
+                    <div id="loading-spinner" class="spinner">데이터 불러오는 중...</div>
+                    <div id="recent-history" class="history-list hidden">
+                        <!-- Javascript will populate this -->
+                    </div>
+                </section>
+        </main>
+
+        <footer>
+            <p>Powered by Advanced Algorithm • v1.0</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
