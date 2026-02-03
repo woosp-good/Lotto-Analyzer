@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan for the Custom Lotto Analyzer.\nIncludes details on the `LottoAnalyzer` class, filter logic, and a CLI script for interaction.",
+  "updatedAt": "2026-02-03T10:42:20.295568700Z"
+}

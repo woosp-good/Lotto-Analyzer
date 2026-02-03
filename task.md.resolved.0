@@ -1,0 +1,12 @@
+# Tasks
+
+- [ ] Initialize project structure <!-- id: 0 -->
+- [ ] Create Implementation Plan <!-- id: 1 -->
+- [ ] Implement Lotto Analyzer Logic (`lotto_analyzer.py`) <!-- id: 2 -->
+    - [ ] Implement Basic Filters (Sum, AC, Odd/Even, Low/High) <!-- id: 3 -->
+    - [ ] Implement Advanced Filters (Multiples, Primes) <!-- id: 4 -->
+    - [ ] Implement Consecutive Number Checks <!-- id: 5 -->
+- [ ] Create Main Script to Run Analysis <!-- id: 6 -->
+- [ ] Verify functionality with test cases <!-- id: 7 -->
+- [ ] Create `README.md` with usage instructions <!-- id: 8 -->
+- [ ] Provide Git commands for user to push <!-- id: 9 -->
